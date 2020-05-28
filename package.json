@@ -1,0 +1,28 @@
+{
+  "name": "cypress-serenity-experiments",
+  "version": "1.0.0",
+  "author": "Abhinaba Ghosh",
+  "description": "cypessic serenity experiment",
+  "scripts": {
+    "pretest": "./node_modules/.bin/serenity update",
+    "test": "cypress run",
+    "posttest": "./node_modules/.bin/serenity run",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "build": "webpack --output-filename dist/out.js --entry ./cypress/integration/*.ts",
+    "log": "echo 'it works';"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@cypress/webpack-preprocessor": "^5.4.1",
+    "@serenity-js/core": "2.5.1",
+    "@types/node": "8.5.1",
+    "babel-loader": "^8.1.0",
+    "cypress": "4.5.0",
+    "serenity-cli": "0.8.0",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

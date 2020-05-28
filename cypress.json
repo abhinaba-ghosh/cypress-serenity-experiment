@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://ahfarmer.github.io/calculator/",
+  "supportFile": "cypress/support/index.ts",
+  "video": false
+}
